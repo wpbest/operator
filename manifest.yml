@@ -1,5 +1,5 @@
 ---
 applications:
-- name: sample-aspnetcore-helloworld
+- name: operator
   random-route: true
   memory: 512M
