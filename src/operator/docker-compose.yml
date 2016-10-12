@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  operator:
+    image: user/operator${TAG}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80"
